@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tables Page</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">
+                  <span class="fa fa-fire"></span> Hot Restaurant
+                    </h1>
+                    <hr class="my-4" />
+                    <p class="lead">
+                            Current Reservations and Waiting List
+                    </p>
+                    <a class="btn btn-danger btn-lg" href="form.html" role="button"><span class="fa fa-credit-card"></span> Make Reservation</a>
+                  </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Current Tables in Use -->
+          <div class="card">
+            <div class="card-header">
+              <h4>Current Reservations</h4>
+            </div>
+            <div class="card-body">
+              <ul id="tableList" class="list-group"></ul>
+            </div>
+          </div>
+          <!-- Waiting List Card -->
+          <div class="card mt-4">
+            <div class="card-header">
+              <h4>Waiting List</h4>
+            </div>
+            <div class="card-body">
+              <ul id="waitList" class="list-group">
+                  
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

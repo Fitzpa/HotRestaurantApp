@@ -1,0 +1,23 @@
+{
+  "name": "hotrestaurantapp",
+  "version": "1.0.0",
+  "description": "Creating a website for taking and viewing reservations using mySQL for the database and express",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fitzpa/HotRestaurantApp.git"
+  },
+  "author": "Louie Fitzpatrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fitzpa/HotRestaurantApp/issues"
+  },
+  "homepage": "https://github.com/Fitzpa/HotRestaurantApp#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.17.1"
+  }
+}
